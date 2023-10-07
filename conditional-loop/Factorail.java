@@ -13,6 +13,7 @@ public class Factorail
           count=count*i;
         }
         System.out.println(count);
+        input.close();
     }
  }
        

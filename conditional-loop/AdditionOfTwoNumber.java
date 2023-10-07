@@ -11,6 +11,7 @@ public class AdditionOfTwoNumber
         int sum=0;
         sum=num1+num2;
         System.out.println(sum);
+        input.close();
     }
 }
 

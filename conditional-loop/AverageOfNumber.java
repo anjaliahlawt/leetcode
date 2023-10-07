@@ -14,6 +14,7 @@ public class AverageOfNumber
         }
         avg=sum/n;
         System.out.println(avg);
+        input.close();
     }
 }
 

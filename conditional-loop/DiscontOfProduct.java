@@ -13,7 +13,7 @@ public class DiscontOfProduct
             float finalprice=n-discountamount;
             System.out.println("discount amount is"+discountamount);
             System.out.println("final price is "+finalprice );
-            
+            input.close();
         }
     }
     

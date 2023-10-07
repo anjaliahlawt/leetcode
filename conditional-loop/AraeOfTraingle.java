@@ -12,7 +12,7 @@ public class AraeOfTraingle
             int area_of_traingle;
             area_of_traingle=(b*h)/2;
             System.out.println( "THE AREA OF TRAINGLE IS" +" "+ area_of_traingle );
-    
+            input.close();
         }
         
     

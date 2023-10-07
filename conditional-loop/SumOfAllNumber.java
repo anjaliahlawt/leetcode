@@ -12,6 +12,7 @@ public class SumOfAllNumber
      {
         count=count+i;
      }
-     System.out.println(count);        
+     System.out.println(count); 
+     input.close();       
    }
 }
