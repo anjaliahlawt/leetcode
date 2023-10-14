@@ -3,7 +3,7 @@
 
 public class SquareRoot{
     public static void main(String[] args) {
-        int n=15;
+        int n=21;
         int result=square(n);
         System.out.println(result);
 
