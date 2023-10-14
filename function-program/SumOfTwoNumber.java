@@ -1,6 +1,6 @@
  //program.Write a program to print the sum of two numbers entered by user by defining your own method.
 
-import java .util.Scanner;
+/*import java .util.Scanner;
 public class SumOfTwoNumber
  {
      public static void main(String[] args) 
@@ -24,4 +24,4 @@ public class SumOfTwoNumber
     }
     }
     
-
+*/

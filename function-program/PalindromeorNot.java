@@ -1,5 +1,5 @@
  //Write a function to find if a number is a palindrome or not. Take number as parameter.
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class PalindromeorNot
  {
    
@@ -35,4 +35,4 @@ public class PalindromeorNot
 }
 
 }
-    
+  */  

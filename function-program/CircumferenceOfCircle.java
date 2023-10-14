@@ -1,6 +1,6 @@
 //program.Write a program to print the circumference and area of a circle of radius entered by user by defining your own method
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class CircumferenceOfCircle 
 {
         public static void main(String[] args) 
@@ -25,5 +25,5 @@ public class CircumferenceOfCircle
          return data;
        }
 }
-    
+   */ 
 

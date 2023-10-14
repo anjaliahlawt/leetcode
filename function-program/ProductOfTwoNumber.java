@@ -1,6 +1,6 @@
 //program.Define a method that returns the product of two numbers entered by user.
 
-import java.util.*;
+/*Uimport java.util.*;
 public class ProductOfTwoNumber
 {
     public static void main(String[] args) 
@@ -19,7 +19,7 @@ public class ProductOfTwoNumber
         System.out.println("the product of two number is" + product);
         return product;
     }
-}
+}*/
 
     
     
