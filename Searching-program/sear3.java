@@ -10,7 +10,7 @@ public class sear3
     }
     static int search(int n,int bad)
  {
-    int start=0;
+    int start=1;
     int end=n;
     int ans=0;
     while(start<=end)

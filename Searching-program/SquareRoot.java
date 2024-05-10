@@ -11,7 +11,7 @@ public class SquareRoot{
     }
     static int square(int n)
     {
-        int start=0;
+        int start=1;
         int end=n;
          int ans=0;
         while(start<=end)

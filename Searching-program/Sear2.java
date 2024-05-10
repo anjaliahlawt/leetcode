@@ -10,7 +10,7 @@ public class Sear2
  } 
  static int guess_number(int n,int pick)
  {
-    int start=0;
+    int start=1;
     int end=n;
     int ans=0;
    while(start<=end)
