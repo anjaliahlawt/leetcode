@@ -1,50 +1,56 @@
 //1431. Kids With the Greatest Number of Candies
-
-// import java.util.*;
-// public class arr6 
-// {
-//         public static void main(String[] args) 
-//         {
-//             Scanner input=new Scanner(System.in);
-//             System.out.println("enter the size of aaray");
-//             int n=input.nextInt();
-//             int[]candies=new int[n];
-//             int[]result=new int[2*n];
-//             System.out.println("enter the value of aaray");
-//             for(int i=0;i<n;i++)
-//             {
-//                 candies[i]=input.nextInt();
-//             }
-//             System.out.println("the array is");
-//             for(int i=0;i<n;i++)
-//             {
-//                 System.out.print(candies[i] + " ");
-//             }
-//             System.out.println();
-//            System.out.println("enter the extra candies");
-//             int extra_candies=input.nextInt();
-// static boolean candies(int[]arr,int extra_candies,)
-//             int greater=0;
-//             for(int i=0;i<n;i++)
-//             {
-//               result[i]=candies[i]+extra_candies;
-//             }
-//             for(int i=0;i<n;i++)
-//             {
-//                // System.out.print(result[i] + " ");
-//                 if(greater<=result[i])
-//                 {
-//                 greater=result[i];
-//                 System.out.println("true"+result[i]);
-//                 }
-//                 else
-//                 {
-//                 System.out.println("false"+result[i]);
-//                 }
-//             }
-//             input.close();
-//     }
-//  }
+import java .util.*;
+public class arr6
+{
+ public static void main(String[] args)
+  {
+    int []candies={12,1,12};
+  
+    boolean [] arr = new boolean[candies.length];
+  
+  
+    boolean[] k=kids(candies,arr);
+    
+      System.out.println(Arrays.toString(k));
+    
+   
+    
+  }
+    static boolean[] kids(int[] candies,boolean[] arr)
+    {
+        int max=0;
+        int extra=10;
+        int n =candies.length;
+       
+      for(int i=0;i<n;i++)
+      {
+        if(candies[i]>max)
+        {
+            max=candies[i];
+        }
+      }
+      
+      for(int i=0;i<n;i++)
+      {
+        if(candies[i]+extra>max)
+        {
+            arr[i]= true;
+           
+        }
+        else
+        {
+            arr[i]=false;
+        }
+        
+      
+      }
+      return arr;
+      
+    }
+    
+    
+   
+ }
 
  
 
