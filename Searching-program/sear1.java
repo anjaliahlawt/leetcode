@@ -1,7 +1,7 @@
 //69. Sqrt(x)
 
 
-public class SquareRoot{
+public class sear1{
     public static void main(String[] args) {
         int n=21;
         int result=square(n);
