@@ -1,4 +1,5 @@
-//167. Two Sum II - Input Array Is Sorted
+//374. Guess Number Higher or Lower
+
 public class Sear2 
 {
  public static void main(String[] args) 

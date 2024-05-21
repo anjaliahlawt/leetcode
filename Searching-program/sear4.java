@@ -1,7 +1,7 @@
 //167. Two Sum II - Input Array Is Sorted
 import java.util.Arrays;
 
-public class sear
+public class sear4
 {
     public static void main(String[] args) 
     {
