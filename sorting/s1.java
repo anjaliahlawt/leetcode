@@ -1,6 +1,5 @@
-//package sorting;
-// bubble sort
-import java .util.*;
+
+package sorting;
 public class s1 
 {
     public static void main(String[] args)
